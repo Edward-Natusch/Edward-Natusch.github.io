@@ -32,9 +32,12 @@
         // One way to tell is to see how comments work...
         // First job is to set the chart as a JS variable:
         var myChart1 = "chart1_covidUKRegions.json";
+        
+        var myChart2 = "chartLine2.json"
         // Now we simply insert it, using Vega's embed code:
         // The embed function needs to be told the location, and what to put there. 
         vegaEmbed('#firstChart', myChart1);
+        vegaEmbed('#SecondChart', myChart2);
       </script>
 
   </div>
