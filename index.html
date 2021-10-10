@@ -24,10 +24,8 @@
 
 <!--Vaga embed, with notes for what is going on -->
   <div class="chart" id="firstChart">
-
       <script>
         // Everything inside here ** Java Script ** 
-        
         // Following the script tag we are using Javascript.
         // One way to tell is to see how comments work...
         // First job is to set the chart as a JS variable:
@@ -36,19 +34,19 @@
         // The embed function needs to be told the location, and what to put there. 
         vegaEmbed('#firstChart', myChart1);
       </script>
-
   </div>
   
-    <div class="chart" id="secondChart">
+  <div class="chart" id="secondChart">
       <script>
-        // Everything inside here ** Java Script ** 
-        // Following the script tag we are using Javascript.
-        // One way to tell is to see how comments work...
-        // First job is to set the chart as a JS variable:
         var myChart2 = "chartLine2.json";
-        // Now we simply insert it, using Vega's embed code:
-        // The embed function needs to be told the location, and what to put there. 
         vegaEmbed('#secondChart', myChart2);
+      </script>
+  </div>
+  
+  <div class="chart" id="secondChart">
+      <script>
+        var myChart3 = "chart2_ukProductivity.json";
+        vegaEmbed('#secondChart', myChart3);
       </script>
   </div>
   
