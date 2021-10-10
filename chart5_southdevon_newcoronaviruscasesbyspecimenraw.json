@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     
     "title": {
-      "text": "Cases South-Devon",
+      "text": "Cases: South-Devon",
       "subtitle":"New cases by specimen date until the 4th of October",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
