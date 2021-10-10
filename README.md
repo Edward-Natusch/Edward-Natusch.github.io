@@ -1,2 +1,2 @@
 # Edward-Natusch.github.io
-# Welcome to my data-science portfolio
+# Welcome to my Data Science portfolio
