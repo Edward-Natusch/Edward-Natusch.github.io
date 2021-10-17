@@ -3,6 +3,7 @@
 
 body{
     background-color: rgb(220, 020, 060);
+    margin: auto;
 }
 
 h1{
@@ -31,5 +32,4 @@ p{
     border-radius: 5px;
     border-color: white;
     margin: auto;
-    text-align: center;
 }
