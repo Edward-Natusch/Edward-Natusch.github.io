@@ -2,11 +2,11 @@
 /* This is my first proper css file */
 
 body{
-    background-color: rgb(112, 128, 144);
+    background-color: rgb(220, 020, 060);
 }
 
 h1, h3, p{
-    color:rgb(220, 020, 060);
+    color:rgb(255,255,255);
     font-family: 'Roboto', sans-serif;
 }
 
