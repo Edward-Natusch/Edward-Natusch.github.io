@@ -5,9 +5,10 @@ body{
     background-color: rgb(220, 020, 060);
 }
 
-h1, h3, p{
+h1{
     color:rgb(255,255,255);
     font-family: 'Roboto', sans-serif;
+    font-size: 40px;
 }
 
 .chart{
