@@ -1,8 +1,13 @@
 /* This is my first proper css file */
 
+
 body{
     background-color: rgb(220, 020, 060);
+    margin: auto;
+    max-width: 390px;
 }
+
+  
 
 h1{
     color:rgb(255,255,255);
@@ -22,12 +27,11 @@ p{
 }
 
 .chart{
-    width: 330px;
-    border-width: 10px;
     background-color: white;
+    width: 390px;
+    border-width: auto;
     border-style: solid;
+    border-radius: 5px;
     border-color: white;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
