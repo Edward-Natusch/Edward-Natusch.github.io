@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+    "title": {
+      "text": "UK Bicycle theft 2020",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+
+    "data": {"values":
+     [
+     {"Area":"Plymouth", "Bicycle theft rate per 1000 habitants":"0.47" },
+     {"Area":"Bristol", "Bicycle theft rate per 1000 habitants":"3.47"},
+     {"Area":"Hackney", "Bicycle theft rate per 1000 habitants":"8.21"}
+     ]
+    },
+
+    "mark":{
+      "type": "bar"
+    },
+
+    "height": 300,
+    "width": 310,
+    
+    "encoding": {
+      "x": {
+        "field": "Area",
+        "type": "nominal",
+        "title": null
+      },
+  
+      "y": {
+        "field": "Bicycle theft rate per 1000 habitants",
+        "type": "quantitative",
+        "title": "Bicycle theft rate per 1000 habitants"
+      }
+    }
+  }
