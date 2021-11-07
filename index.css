@@ -4,20 +4,19 @@
 body{
     background-color: rgb(220, 020, 060);
     max-width: 500px;
+    text-align: center;
 }
 
 h1{
     color:rgb(255,255,255);
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    text-align: center;
 }
 
 h2{
     color:rgb(255,255,255);
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    text-align: center;
 }
 
 p{
@@ -30,5 +29,5 @@ p{
     border-style: solid;
     border-radius: 5px;
     border-color: white;
-    text-align: center;
+    border-radius: 10px;
 }
