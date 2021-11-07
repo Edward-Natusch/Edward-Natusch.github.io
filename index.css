@@ -5,6 +5,11 @@ body{
     background-color: rgb(220, 020, 060);
     margin: auto;
     max-width: 390px;
+    background-image:url('Stalbent-ciencias_y_artes-prado copy.jpg');
+    background-size: cover;
+    background-position: center;
+    height:fit-content;
+    width: fit-content;
 }
 
   
