@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     
     "title": {
-      "text": "UK Bicycle theft 2020",
+      "text": "UK Bicycle Theft 2020",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
