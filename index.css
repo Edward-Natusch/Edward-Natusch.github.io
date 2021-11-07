@@ -1,25 +1,21 @@
-
 /* This is my first proper css file */
 
 body{
     background-color: rgb(220, 020, 060);
-    max-width: 500px;
 }
 
 h1{
     color:rgb(255,255,255);
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 h2{
     color:rgb(255,255,255);
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 p{
