@@ -149,8 +149,16 @@ df2['Labour Party'] = df2['Labour Party'].str.replace('\n',' ')
 df2['Labour Party'] = df2['Labour Party'].str.replace('-',' ')
 df2['Date'] = df2['Date'].str.replace('\n',' ')
 
-df1.to_csv("ConservativePartyPollingData.csv")
-df2.to_csv("LabourPartyPollingData.csv")
+# Sort by publishing date
+
+df1["Date"] = pd.to_datetime(df1["Date"])
+df2["Date"] = pd.to_datetime(df2["Date"])
+
+df1.sort_values(by=['Date'], inplace=True)
+df2.sort_values(by=['Date'], inplace=True)
+
+df1.to_csv("Homework7_ConservativePartyPollingData.csv")
+df2.to_csv("Homework7_LabourPartyPollingData.csv")
 
 
 
