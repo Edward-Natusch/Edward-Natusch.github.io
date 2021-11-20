@@ -151,8 +151,8 @@ df2['Date'] = df2['Date'].str.replace('\n',' ')
 
 # Sort by publishing date
 
-df1["Date"] = pd.to_datetime(df1["Date"])
-df2["Date"] = pd.to_datetime(df2["Date"])
+df1["Date"] = pd.to_datetime(df1["Date"],dayfirst=True)
+df2["Date"] = pd.to_datetime(df2["Date"],dayfirst=True)
 
 df1.sort_values(by=['Date'], inplace=True)
 df2.sort_values(by=['Date'], inplace=True)
