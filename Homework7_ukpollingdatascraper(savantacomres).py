@@ -129,24 +129,24 @@ for i in range(0,a):
 # Creating a data frame to store Conservative party data
 
 df1 = pd.DataFrame([Conservative_poll_values,Conservative_poll_dates]).T
-df1.columns = ['Conservative Party','Date']
+df1.columns = ['Vote Percentage','Date']
 
 # Cleaning the data
 
-df1['Conservative Party'] = df1['Conservative Party'].str.replace('(',' ')
-df1['Conservative Party'] = df1['Conservative Party'].str.replace('%',' ')
-df1['Conservative Party'] = df1['Conservative Party'].str.replace('\n',' ')
-df1['Conservative Party'] = df1['Conservative Party'].str.replace('-',' ')
+df1['Vote Percentage'] = df1['Vote Percentage'].str.replace('(',' ')
+df1['Vote Percentage'] = df1['Vote Percentage'].str.replace('%',' ')
+df1['Vote Percentage'] = df1['Vote Percentage'].str.replace('\n',' ')
+df1['Vote Percentage'] = df1['Vote Percentage'].str.replace('-',' ')
 df1['Date'] = df1['Date'].str.replace('\n',' ')
 
 # Creating a data frame to store Labour party data
 
 df2 = pd.DataFrame([Labour_poll_values,Labour_poll_dates]).T
-df2.columns = ['Labour Party','Date']
-df2['Labour Party'] = df2['Labour Party'].str.replace('(',' ')
-df2['Labour Party'] = df2['Labour Party'].str.replace('%',' ')
-df2['Labour Party'] = df2['Labour Party'].str.replace('\n',' ')
-df2['Labour Party'] = df2['Labour Party'].str.replace('-',' ')
+df2.columns = ['Vote Percentage','Date']
+df2['Vote Percentage'] = df2['Vote Percentage'].str.replace('(',' ')
+df2['Vote Percentage'] = df2['Vote Percentage'].str.replace('%',' ')
+df2['Vote Percentage'] = df2['Vote Percentage'].str.replace('\n',' ')
+df2['Vote Percentage'] = df2['Vote Percentage'].str.replace('-',' ')
 df2['Date'] = df2['Date'].str.replace('\n',' ')
 
 # Sort by publishing date
