@@ -2,17 +2,13 @@
 
 
 body{
-    background-color: rgb(220, 020, 060);
-    margin: auto;
-    max-width: 390px;
-    background-image:url('Stalbent-ciencias_y_artes-prado copy.jpg');
+    background-image:url('IMG_3718.jpeg');
+    background-position: left;
+    background-attachment: fixed;
     background-size: cover;
-    background-position: center;
-    height:fit-content;
-    width: fit-content;
 }
 
-  
+
 
 h1{
     color:rgb(255,255,255);
@@ -28,15 +24,42 @@ h2{
     text-align: center;
 }
 
+h3{
+    color:rgb(255,255,255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
 p{
 }
 
 .chart{
     background-color: white;
     width: 390px;
-    border-width: auto;
+    border-width: 5px;
     border-style: solid;
     border-radius: 5px;
     border-color: white;
+    margin: center;
+}
+
+
+.container1{
     margin: auto;
+    max-width: 510px;
+    background-color: rgba(32, 42, 68);
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container2{
+    margin: auto;
+    max-width: 400px;
+    background-color: rgba(32, 42, 68);
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
