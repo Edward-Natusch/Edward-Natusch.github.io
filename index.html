@@ -24,16 +24,30 @@
 
 <!-- ///////////////////  BODY //////////////////////////////////// -->
 
+
+
 <body>
 
- <h1> Data Science 2021 Portfolio </h1>
+
+<div class ="container1">
+
+<h1>
+Data Science Portfolio 
+</h1>
 
  <p> <h2> Edward Natusch </h2> </p>
 
  <p> <h2> University of Bristol </h2> </p>
 
- 
+</div>
+
+<p></p>
+
+<div class="container2">
 <!--Vaga embed, with notes for what is going on -->
+
+<p><h3> Homework 2</h3></p>
+<p> <h3> Embedding three externally designed charts. <h3> </p>
 
   <div class="chart" id="firstChart">
       <script>
@@ -48,8 +62,7 @@
       </script>
   </div>
 
-  <p></p>
-
+<p></p>
 
   <div class="chart" id="secondChart">
       <script>
@@ -58,7 +71,7 @@
       </script>
   </div>
 
-  <p></p>
+<p></p>
 
   <div class="chart" id="thirdChart">
       <script>
@@ -66,8 +79,13 @@
         vegaEmbed('#thirdChart', myChart3);
       </script>
   </div>
+</div>
 
-  <p></p>
+<p></p>
+
+<div class="container2">
+<p><h3> Homework 3</h3></p>
+<p> <h3> Embedding two charts designed by myself. The first chart is live and uses the government coronavirus api. The second chart is static and uses a csv file hosted on my github page. <h3> </p>
 
   <div class="chart" id="fourthChartLive">
       <script>
@@ -76,16 +94,21 @@
       </script>
   </div>
 
-  <p></p>
+<p></p>
 
-  <div class="chart" id="fifthChartRaw">
+<div class="chart" id="fifthChartRaw">
       <script>
         var myChart5 = "chart5_southdevon_newcoronaviruscasesbyspecimenraw.json";
         vegaEmbed('#fifthChartRaw', myChart5);
       </script>
   </div>
+</div>
 
-  <p></p>
+<p></p>
+
+<div class="container2">
+<p><h3> Homework 4</h3></p>
+<p> <h3> Editing JSON by hand. The first chart has an extra added observation and the second chart uses "in-line" JSON data.  <h3> </p>
 
   <div class="chart" id="SixthChartExtraObservation">
     <script>
@@ -96,15 +119,20 @@
 
 <p></p>
 
-<div class="chart" id="SeventhChartJavaScriptObjects">
-  <script>
+<div class="container2">
+  <div class="chart" id="SeventhChartJavaScriptObjects">
+    <script>
     var myChart7 = "chart7_bicyclecrimeUK.json";
     vegaEmbed('#SeventhChartJavaScriptObjects', myChart7);
-  </script>
+    </script>
 </div>
 
+<p></p>
+
+</div>
 
 </body>
+
 
 <!-- ///////////////////  BODY //////////////////////////////////// -->
 
