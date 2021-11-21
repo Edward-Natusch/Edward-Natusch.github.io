@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AAPL&datatype=csv&apikey=AIG8372V7EEYP6TA",
+    "format": {"type": "csv"}
+  },
+  "title": {
+    "text": "Daily Apple Stock Closing Price",
+    "subtitle": "Source: Alphavantage API",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 300,
+  "height": 300,
+  "mark": {
+    "type": "line",
+    "color": "mediumspringgreen",
+    "strokeWidth": 3,
+    "opacity": 1,
+    "clip": true
+  },
+  "encoding": {
+    "x": {"field": "timestamp", "type": "temporal", "title": null},
+    "y": {
+      "field": "close",
+      "type": "quantitative",
+      "title": null,
+      "scale": {"domain": [130, 180]}
+    }
+  },
+  "config": {}
+}
