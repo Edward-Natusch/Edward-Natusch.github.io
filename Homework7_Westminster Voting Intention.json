@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A chart to represent polling data, obtained via a webscraper",
+  "title": {
+    "text": "Westminster Voting Intention",
+    "subtitle": "By Date Published. Source: https://comresglobal.com/poll-category/voting-intention/",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "height": 300,
+  "width": 270,
+  "encoding": {
+    "x": {
+      "field": "Date",
+      "type": "temporal",
+      "title": null,
+      "scale": {
+        "domain": [{"year": 2021}, {"year": 2021, "month": "December"}]
+      },
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "Vote Percentage",
+      "type": "quantitative",
+      "title": "Percent (%)",
+      "scale": {"domain": [25, 48]},
+      "axis": {"grid": false}
+    },
+    "color": {"field": "Party", "scale": {"range": ["blue", "red"]}}
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Edward-Natusch/Edward-Natusch.github.io/main/Homework7_ConservativePartyPollingData.csv"
+      },
+      "mark": {"type": "line", "point": "yes", "clip": true}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Edward-Natusch/Edward-Natusch.github.io/main/Homework7_LabourPartyPollingData.csv"
+      },
+      "mark": {"type": "line", "point": "yes", "clip": true}
+    }
+  ],
+  "config": {}
+}
