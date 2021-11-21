@@ -72,10 +72,11 @@ a = len(Polls)
 count = 0
 found = False
 
-# Creating two arrays, the first stores the polling value and the second stores the date the poll was published 
+# Creating three arrays. The first stores the polling value, the second stores the date the poll was published and the third will store that these values are for the Conservatives.
 
 Conservative_poll_values = []
 Conservative_poll_dates = []
+Conservative_Party = []
 
 # For loop, loops through the text data, looking for a match for 'Con' and stores the value of the polling data in the array 'Conservative_poll_values'
 
@@ -88,6 +89,7 @@ for i in range(0,a):
     if((Polls[i][j] =='C' and Polls[i][j+1] == 'o'and Polls[i][j+2] == 'n' and Polls[i][j+3] == ' ' and Polls[i][j+4] != 'v') or (Polls[i][j] =='C' and Polls[i][j+1] == 'O'and Polls[i][j+2] == 'N' and Polls[i][j+3] != 'T')):
       print(Polls[i][j+4:j+8])
       Conservative_poll_values.append(Polls[i][j+4:j+8])
+      Conservative_Party.append("Conservative")
       count = count + 1
       found = True
     
@@ -110,6 +112,7 @@ found = False
 
 Labour_poll_values = []
 Labour_poll_dates = []
+Labour_Party = []
 
 for i in range(0,a):
   b=len(Polls[i])
@@ -118,6 +121,7 @@ for i in range(0,a):
     if(Polls[i][j] == ('L') and (Polls[i][j+1] == 'A') and (Polls[i][j+2] == 'B')) or (Polls[i][j] == ('L') and (Polls[i][j+1] == 'a') and (Polls[i][j+2] == 'b') and Polls[i][j+3] == ' '):
       print(Polls[i][j+4:j+8])
       Labour_poll_values.append(Polls[i][j+4:j+8])
+      Labour_Party.append("Labour")
       count = count + 1
       found = True
 
@@ -128,8 +132,8 @@ for i in range(0,a):
 
 # Creating a data frame to store Conservative party data
 
-df1 = pd.DataFrame([Conservative_poll_values,Conservative_poll_dates]).T
-df1.columns = ['Vote Percentage','Date']
+df1 = pd.DataFrame([Conservative_Party,Conservative_poll_values,Conservative_poll_dates]).T
+df1.columns = ['Party','Vote Percentage','Date']
 
 # Cleaning the data
 
@@ -141,8 +145,8 @@ df1['Date'] = df1['Date'].str.replace('\n',' ')
 
 # Creating a data frame to store Labour party data
 
-df2 = pd.DataFrame([Labour_poll_values,Labour_poll_dates]).T
-df2.columns = ['Vote Percentage','Date']
+df2 = pd.DataFrame([Labour_Party,Labour_poll_values,Labour_poll_dates]).T
+df2.columns = ['Party','Vote Percentage','Date']
 df2['Vote Percentage'] = df2['Vote Percentage'].str.replace('(',' ')
 df2['Vote Percentage'] = df2['Vote Percentage'].str.replace('%',' ')
 df2['Vote Percentage'] = df2['Vote Percentage'].str.replace('\n',' ')
