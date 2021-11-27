@@ -39,7 +39,7 @@
       "y": {
         "field": "IRLTLT01USM156N",
         "type": "quantitative",
-        "title": "Percent",
+        "title": "Percent (%)",
         "axis": {"grid": false}
       }
     }
