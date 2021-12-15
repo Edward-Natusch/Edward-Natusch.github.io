@@ -10,14 +10,14 @@
     "color": "black"
   },
   "height": 300,
-  "width": 270,
+  "width": 310,
   "encoding": {
     "x": {
       "field": "Date",
       "type": "temporal",
       "title": null,
       "scale": {
-        "domain": [{"year": 2021}, {"year": 2021, "month": "December"}]
+        "domain": [{"year": 2021}, {"year": 2022, "month": "January"}]
       },
       "axis": {"grid": false}
     },
