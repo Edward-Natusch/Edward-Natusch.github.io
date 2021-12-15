@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<!-- Portfolio Page -->
+
 <!-- Edward Natusch, Data Science 2021 -->
 
 
@@ -11,7 +13,7 @@
 <link rel="stylesheet" href="index.css">
 
 </head>
-<!--The next three lines allow the Vega embed-->
+<!-- Allowing Vega to embed -->
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
@@ -21,16 +23,10 @@
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 
-
 <!-- ///////////////////  BODY //////////////////////////////////// -->
 
-
-
 <body>
-
-
 <div class ="container1">
-
 <h1>
 Data Science Portfolio 
 </h1>
@@ -43,21 +39,16 @@ Data Science Portfolio
 
 <p></p>
 
+<div> </div>
+
 <div class="container2">
-<!--Vaga embed, with notes for what is going on -->
 
 <p><h3> Homework 2</h3></p>
 <p> <h3> Embedding three externally designed charts. <h3> </p>
 
   <div class="chart" id="firstChart">
       <script>
-        // Everything inside here ** Java Script ** 
-        // Following the script tag we are using Javascript.
-        // One way to tell is to see how comments work...
-        // First job is to set the chart as a JS variable:
         var myChart1 = "chart1_covidUKRegions.json";
-        // Now we simply insert it, using Vega's embed code:
-        // The embed function needs to be told the location, and what to put there. 
         vegaEmbed('#firstChart', myChart1);
       </script>
   </div>
@@ -132,7 +123,7 @@ Data Science Portfolio
 
 <div class="container2">
   <p><h3> Homework 5</h3></p>
-  <p> <h3> Embedding api driven charts. <h3> </p>
+  <p> <h3> Embedding two api driven charts. <h3> </p>
   
     <div class="chart" id="EigthChartAPI">
         <script>
@@ -140,12 +131,22 @@ Data Science Portfolio
           vegaEmbed('#EigthChartAPI', myChart8);
         </script>
     </div>
+
+    <p></p>
+
+    <div class="chart" id="NinthChartAPI">
+      <script>
+        var myChart9= "Chart9_RealUSNaturalGasPriceResidentialSector.json";
+        vegaEmbed('#NinthChartAPI', myChart9);
+      </script>
+  </div>
+
 </div>
 <p></p>
   
 
 <div class="container2">
-<p><h3> Homework: Loops and Scrapers</h3></p>
+<p><h3> Homework 7: Loops and Scrapers</h3></p>
 <p> <h3> For this I built a web-scraping programme in Python to scrape westminster voting intention data from polls published at <a href = "https://comresglobal.com/poll-category/voting-intention/."> comresglobal </a>.</h3></h3><h3> </p>
 
 <p> <h3> The link to the code I used to scrape the data can be found <a href = "https://github.com/Edward-Natusch/Edward-Natusch.github.io/blob/main/Homework7_SavantaComresWebScraperipynb.ipynb"> here</a>.</h3></h3><h3> </p>
