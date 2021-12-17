@@ -27,7 +27,7 @@
       "field": "close",
       "type": "quantitative",
       "title": "US Dollar ($)",
-      "scale": {"domain": [130, 180]}
+      "scale": {"domain": [130, 200]}
     }
   },
   "config": {}
