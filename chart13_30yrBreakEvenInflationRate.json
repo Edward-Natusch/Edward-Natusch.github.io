@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "30-Year Break Even Inflation Rate (US)",
+    "subtitle": "Source: FRED Api",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Edward-Natusch/Edward-Natusch.github.io/main/Homework6_Break_Even_Inflation_Rate_T30YIEM.json",
+    "format": {"type": "json", "property": "observations"}
+  },
+  "height": 300,
+  "width": 310,
+  "mark": {"type": "line", "color": "purple"},
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Percent (%)",
+      "axis": {"grid": false}
+    }
+  },
+  "config": {}
+}
