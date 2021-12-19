@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Edward-Natusch/Edward-Natusch.github.io/main/Homework8_DataStories_EUImports.csv",
+    "format": {"type": "csv"}
+  },
+  "title": {
+    "text": " Seasonally adjusted value of EU exports to the UK (Goods and Services)",
+    "subtitle": "Source: Office for National Statistics API",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 300,
+  "height": 300,
+  "mark": {
+    "type": "line",
+    "color": "royalblue",
+    "strokeWidth": 2,
+    "opacity": 1,
+    "clip": true
+  },
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": null},
+    "y": {"field": "value", "type": "quantitative", "title": "£ Million"}
+  },
+  "config": {}
+}
