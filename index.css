@@ -42,9 +42,10 @@ p{
     border-style: solid;
     border-radius: 5px;
     border-color: white;
-    margin: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
-
 
 .container1{
     margin: auto;
@@ -56,7 +57,7 @@ p{
 }
 .container2{
     margin: auto;
-    max-width: 500px;
+    max-width: 600px;
     background-color: rgba(32, 42, 68,0.89);
     border-radius: 25px;
     padding-top: 5px;
