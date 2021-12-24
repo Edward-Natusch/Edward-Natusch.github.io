@@ -5,8 +5,8 @@
     "format": {"type": "csv"}
   },
   "title": {
-    "text": " Seasonally adjusted value of EU exports to the UK (Goods and Services)",
-    "subtitle": "Source: Office for National Statistics API",
+    "text": "Value of EU exports to the UK (Goods and Services)",
+    "subtitle": "Seasonally Adjusted, Source: Office for National Statistics API",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
