@@ -5,8 +5,8 @@
     "format": {"type": "csv"}
   },
   "title": {
-    "text": "Value of EU exports to the UK (Goods and Services)",
-    "subtitle": "Seasonally Adjusted, Source: Office for National Statistics API",
+    "text": "Value of EU Exports to the UK (Goods and Services)",
+    "subtitle": " (£ Million), Seasonally Adjusted, Source: ONS API",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -23,7 +23,7 @@
   },
   "encoding": {
     "x": {"field": "date", "type": "temporal", "title": null},
-    "y": {"field": "value", "type": "quantitative", "title": "£ Million"}
+    "y": {"field": "value", "type": "quantitative", "title": null}
   },
   "config": {}
 }
