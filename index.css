@@ -8,7 +8,6 @@ body{
 }
 
 
-
 h1{
     color:rgb(255,255,255);
     font-family: 'Roboto', sans-serif;
@@ -182,3 +181,7 @@ p{
         font-size: 30px;
         font-family: 'Roboto',sans-serif;
       }
+      
+   img{
+       width: 99%;
+    }
