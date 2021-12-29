@@ -1,5 +1,4 @@
-/* This is my first proper css file */
-
+/* Edward Natusch - CSS File for Data Science Website */
 
 body{
     background-image:url('IMG_3718.jpeg');
@@ -36,7 +35,7 @@ p{
 
 .chart{
     background-color: white;
-    width: 310;
+    width: auto;
     height: auto;
     border-width: 5px;
     border-style: solid;
@@ -89,3 +88,98 @@ p{
     font-size: 16px;
     font-family: 'Roboto',sans-serif;
   }
+
+  /* Adjustments for a smartphone screen */
+
+  @media (max-width:480px) {
+
+
+    body{
+        background-image:url('IMG_3718.jpeg');
+        background-position: left;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    
+    
+    h1{
+        color:rgb(255,255,255);
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    h2{
+        color:rgb(255,255,255);
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    h3{
+        color:rgb(255,255,255);
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    p{
+    }
+    
+    .chart{
+        background-color: white;
+        width: auto;
+        height: auto;
+        border-width: 5px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .container1{
+        margin: auto;
+        max-width: 600px;
+        background-color: rgba(32, 42, 68,0.89);
+        border-radius: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .container2{
+        margin: auto;
+        max-width: 800px;
+        background-color: rgba(32, 42, 68,0.89);
+        border-radius: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    
+    .container3{
+        text-align: center;
+    }
+    
+    .container4{
+        text-align: center;
+        color:rgb(0, 0, 0);
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    
+    .button {
+        background-color: purple; 
+        border: none;
+        border-radius: 10px;
+        color: white;
+        padding: 30px 64px;
+        margin-left: auto;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 30px;
+        font-family: 'Roboto',sans-serif;
+      }
+    }
