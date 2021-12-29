@@ -3,7 +3,7 @@
 body{
     background-image:url('IMG_3718.jpeg');
     background-position: left;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
 }
 
@@ -91,8 +91,8 @@ p{
 
   /* Adjustments for a smartphone screen */
 
-  @media only screen and (max-width:480px) {
-
+  @media only screen and (max-width:600px) {
+    
 
     body{
         background-image:url('IMG_3718.jpeg');
@@ -142,7 +142,7 @@ p{
     
     .container1{
         margin: auto;
-        max-width: 600px;
+        max-width: 1000px;
         background-color: rgba(32, 42, 68,0.89);
         border-radius: 25px;
         padding-top: 5px;
@@ -150,7 +150,7 @@ p{
     }
     .container2{
         margin: auto;
-        max-width: 800px;
+        max-width: 900px;
         background-color: rgba(32, 42, 68,0.89);
         border-radius: 25px;
         padding-top: 5px;
@@ -182,4 +182,3 @@ p{
         font-size: 30px;
         font-family: 'Roboto',sans-serif;
       }
-    }
