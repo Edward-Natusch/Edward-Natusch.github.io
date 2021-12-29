@@ -5,6 +5,7 @@
       "text": "UK Bicycle Crime in 2020",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
+      "subtitle":"Rate of bicycle theft per 1000 habitants, Source: Crimerate.co.uk",
       "anchor": "start",
       "color": "black"
     },
@@ -34,7 +35,7 @@
       "y": {
         "field": "Bicycle theft rate per 1000 habitants",
         "type": "quantitative",
-        "title": "Rate of bicycle theft per 1000 habitants"
+        "title": null
       }
     }
   }
