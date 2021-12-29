@@ -3,7 +3,7 @@
 body{
     background-image:url('IMG_3718.jpeg');
     background-position: left;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
 }
 
