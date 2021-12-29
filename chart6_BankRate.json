@@ -5,7 +5,7 @@
 
    "title": {
     "text": "Bank Rate (%)",
-    "subtitle":" Edited with a new observation (fake) for the homework 4",
+    "subtitle":" Edited with a new false observation for homework 4",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
