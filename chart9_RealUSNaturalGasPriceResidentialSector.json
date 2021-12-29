@@ -5,8 +5,8 @@
     "format": {"type": "csv"}
   },
   "title": {
-    "text": "Real Natural Gas Price Residential Sector, U.S. Average (Monthly)",
-    "subtitle": "Source: Nasdaq API",
+    "text": "Real Natural Gas Price (U.S. Residential Sector)",
+    "subtitle": "USD ($) per thousand cubic feet, Source: Nasdaq API",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -26,7 +26,7 @@
     "y": {
       "field": "Value",
       "type": "quantitative",
-      "title": "USD ($) per thousand cubic feet",
+      "title": null,
       "scale": {"domain": [0, 22]}
     }
   },
