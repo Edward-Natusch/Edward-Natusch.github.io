@@ -3,7 +3,7 @@
   "description": "A chart to represent polling data, obtained via a webscraper",
   "title": {
     "text": "Westminster Voting Intention",
-    "subtitle": "By Date Published. Source: https://comresglobal.com/poll-category/voting-intention/",
+    "subtitle": "By Date Published. Source: comresglobal.com",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
