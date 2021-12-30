@@ -1,0 +1,84 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Edward-Natusch/Edward-Natusch.github.io/main/Project_President_Biden_Polling_Weekly_Retail_Price_of_Gasoline_Without_Lag.csv",
+    "format": {"type": "csv"}
+  },
+  "title": {
+    "text": "Biden Presidential Approval and Retail Price of Gasoline",
+    "subtitle": "Source: Rasmussen Reports & FRED API",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "transform": [
+    {"filter": "datum.Month>minMonth"},
+    {"filter": "datum.Month<maxMonth"}
+  ],
+  "params": [
+    {
+      "name": "minMonth",
+      "value": 1,
+      "bind": {
+        "input": "range",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "name": "Start Month"
+      }
+    },
+    {
+      "name": "maxMonth",
+      "value": 12,
+      "bind": {
+        "input": "range",
+        "min": 1,
+        "max": 12,
+        "step": 1,
+        "name": "End Month"
+      }
+    }
+  ],
+  "width": 300,
+  "height": 300,
+  "encoding": {"x": {"field": "Date", "type": "temporal", "title": null}},
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": false,
+        "color": "blue",
+        "strokeWidth": 1,
+        "width": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "Total Approve",
+          "type": "quantitative",
+          "scale": {"domain": [0, 70]},
+          "title": "Presidential Approval (%)",
+          "axis": {"grid": false, "labelColor": "blue", "format": ",.5"}
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "point": false,
+        "color": "red",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "Retail Price of Gasoline (Dollars per Gallon)",
+          "type": "quantitative",
+          "title": "Retail Price of Gasoline (Dollars per Gallon)",
+          "axis": {"grid": false, "labelColor": "red", "format": "$,.5"}
+        }
+      }
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}},
+  "config": {}
+}
