@@ -20,7 +20,7 @@
       "type": "quantitative",
       "title": "Presidential Approval (%)",
       "scale": {"domain": [35, 60]},
-      "axis": {"grid": false, "labelColor": "red", "format": ",.5"}
+      "axis": {"grid": false, "labelColor": "red"}
     }
   },
   "layer": [
