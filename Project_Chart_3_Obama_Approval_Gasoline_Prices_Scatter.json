@@ -6,7 +6,7 @@
   },
   "title": {
     "text": "Obama Presidential Approval vs. Retail Price of Gasoline",
-    "subtitle": "Presidential Approval is lagged by a month, Source: Rasmussen Reports & FRED API",
+    "subtitle": "Presidential approval lagged by a month, Source: Rasmussen Reports & FRED API",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -45,7 +45,6 @@
           "field": "Retail Price of Gasoline (Dollars per Gallon)",
           "type": "quantitative",
           "title": "Retail Price of Gasoline (Dollars per Gallon)",
-          "scale": {"domain": [1.5, 4.2]},
           "axis": {"grid": false, "labelColor": "darkred", "format": "$,.5"}
         }
       }
