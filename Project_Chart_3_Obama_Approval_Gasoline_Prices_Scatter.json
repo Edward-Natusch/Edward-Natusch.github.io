@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/Edward-Natusch/Edward-Natusch.github.io/main/Homework10_President_Obama_Polling_Weekly_Retail_Price_of_Gasoline.csv",
+    "url": "https://raw.githubusercontent.com/Edward-Natusch/Edward-Natusch.github.io/main/Project_President_Obama_Polling_Weekly_Retail_Price_of_Gasoline.csv",
     "format": {"type": "csv"}
   },
   "title": {
