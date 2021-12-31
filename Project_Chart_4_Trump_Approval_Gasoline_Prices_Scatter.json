@@ -6,7 +6,7 @@
   },
   "title": {
     "text": "Trump Presidential Approval vs. Retail Price of Gasoline",
-    "subtitle": "Presidential Approval is lagged by a month, Source: Rasmussen Reports & FRED API",
+    "subtitle": "Presidential approval lagged by a month, Source: Rasmussen Reports & FRED API",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -20,7 +20,7 @@
       "type": "quantitative",
       "title": "Presidential Approval (%)",
       "scale": {"domain": [35, 60]},
-      "axis": {"grid": false, "labelColor": "red"}
+      "axis": {"grid": false, "labelColor": "red", "format": ",.5"}
     }
   },
   "layer": [
@@ -47,7 +47,6 @@
           "field": "Retail Price of Gasoline (Dollars per Gallon)",
           "type": "quantitative",
           "title": "Retail Price of Gasoline (Dollars per Gallon)",
-          "scale": {"domain": [1.5, 4.2]},
           "axis": {"grid": false, "labelColor": "darkblue", "format": "$,.5"}
         }
       }
