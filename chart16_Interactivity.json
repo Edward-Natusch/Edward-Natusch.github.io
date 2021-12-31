@@ -13,8 +13,8 @@
     "color": "black"
   },
   "transform": [
-    {"filter": "datum.year>minYear"},
-    {"filter": "datum.year<maxYear"}
+    {"filter": "datum.Year>minYear"},
+    {"filter": "datum.Year<maxYear"}
   ],
   "params": [
     {
