@@ -3,7 +3,7 @@
 /* Background image -courtesy of pixabay - https://pixabay.com/photos/froet-gas-petrol-station-gasoline-195389/ */ 
 
 body{
-    background-image:url('fuelstation.jpg');
+    background-image:url('IMG_3718.jpeg');
     background-position: left;
     background-attachment: fixed;
     background-size: cover;
@@ -99,7 +99,7 @@ p{
     
 
     body{
-        background-image:url('fuelstation.jpg');
+        background-image:url('IMG_3718.jpeg');
         background-position: left;
         background-attachment: fixed;
         background-size: cover;
@@ -117,14 +117,14 @@ p{
     h2{
         color:rgb(255,255,255);
         font-family: 'Roboto', sans-serif;
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
     }
     
     h3{
         color:rgb(255,255,255);
         font-family: 'Roboto', sans-serif;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
     
@@ -154,13 +154,13 @@ p{
     }
     .container2{
         margin: auto;
-        max-width: 2000px;
+        max-width: 900px;
         background-color: rgba(32, 42, 68,0.89);
         border-radius: 25px;
         padding-top: 5px;
         padding-bottom: 5px;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: auto;
+        padding-right: auto;
     }
     
     .container3{
