@@ -8,6 +8,7 @@
     "text": "UK Conservative Party Voting Intention vs. CPIH Index: Fuel (2021)",
     "subtitle": "Voting intention is a monthly average, Sources: Savanta Comres & ONS API",
     "subtitleFontSize": 10,
+    "subtitleFontStyle": "italic",
     "anchor": "start",
     "color": "black"
   },
