@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=AAPL&datatype=csv&apikey=AIG8372V7EEYP6TA",
+    "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=AAPL&datatype=csv&apikey=AIG8372V7EEYP6TA",
     "format": {"type": "csv"}
   },
   "title": {
