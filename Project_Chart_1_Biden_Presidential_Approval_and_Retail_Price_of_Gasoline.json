@@ -5,7 +5,7 @@
     "format": {"type": "csv"}
   },
   "title": {
-    "text": "Biden Presidential Approval vs. Retail Price of Gasoline",
+    "text": "Biden Presidential Approval vs. Retail Price of Gasoline (2021)",
     "subtitle": "Source: Rasmussen Reports & FRED API",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
