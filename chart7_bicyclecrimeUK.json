@@ -10,24 +10,38 @@
   },
   "data": {
     "values": [
-      {"color": "Plymouth", "Area": "Plymouth", "Bicycle theft rate per 1000 habitants": "0.47"},
-      {"color": "Bristol", "Area": "Bristol", "Bicycle theft rate per 1000 habitants": "3.47"},
-      {"color": "Hackney","Area": "Hackney", "Bicycle theft rate per 1000 habitants": "8.21"}
+      {
+        "color": "Plymouth",
+        "Area": "Plymouth",
+        "Bicycle theft rate per 1000 habitants": "0.47"
+      },
+      {
+        "color": "Bristol",
+        "Area": "Bristol",
+        "Bicycle theft rate per 1000 habitants": "3.47"
+      },
+      {
+        "color": "Hackney",
+        "Area": "Hackney",
+        "Bicycle theft rate per 1000 habitants": "8.21"
+      }
     ]
   },
   "mark": {"type": "bar"},
   "height": 300,
   "width": 300,
   "encoding": {
-    "x": {"field": "Area", "type": "nominal", "title": null, "axis": {"labelAngle": 0}},
+    "x": {
+      "field": "Area",
+      "type": "nominal",
+      "title": null,
+      "axis": {"labelAngle": 0}
+    },
     "y": {
       "field": "Bicycle theft rate per 1000 habitants",
       "type": "quantitative",
       "title": null
     },
-    "color": {
-      "field": "color",
-      "type": "nominal"
-    }
+    "color": {"field": "color", "type": "nominal", "legend": null}
   }
 }
