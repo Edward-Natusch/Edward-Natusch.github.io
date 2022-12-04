@@ -26,7 +26,8 @@
       "field": "value",
       "type": "quantitative",
       "title": "Percent (%)",
-      "axis": {"grid": false}
+      "axis": {"grid": false},
+      "scale": {"domain": [-3, 4]}
     }
   },
   "config": {}
